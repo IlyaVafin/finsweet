@@ -1,0 +1,40 @@
+.companies__wrapper {
+	margin-bottom: 96px;
+}
+
+.companies__container {
+	max-width: 1237px;
+	margin: 0 auto;
+}
+
+.companies__text {
+	p {
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 20px;
+		color: #6d6e76;
+	}
+	h4 {
+		font-size: 24px;
+		font-weight: 700;
+		line-height: 32px;
+		color: #6d6e76;
+	}
+}
+
+.comapnies__content {
+	display: flex;
+	align-items: center;
+
+	li {
+		opacity: 0.7;
+		transition: all 0.4s ease;
+	}
+	li:hover {
+		opacity: 1;
+	}
+}
+
+.companies__logos-wrapper {
+	display: flex;
+}

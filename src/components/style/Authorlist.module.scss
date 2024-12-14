@@ -1,0 +1,16 @@
+.social__list {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+	li {
+		margin-left: 16px;
+	}
+}
+
+.social__list__footer {
+	display: flex;
+	li {
+		margin-left: 26px;
+	}
+}

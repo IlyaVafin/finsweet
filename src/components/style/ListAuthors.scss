@@ -1,0 +1,44 @@
+.list-authors__wrapper {
+	margin-bottom: 128px;
+	h1 {
+		text-align: center;
+		font-size: 36px;
+		font-weight: 700;
+		line-height: 48px;
+		letter-spacing: -2px;
+	}
+	.authors-cards__wrapper {
+		display: flex;
+		justify-content: space-between;
+		margin-top: 48px;
+	}
+}
+
+.authors__card {
+	background: #f4f4f4;
+	max-width: 296px;
+	max-height: 324px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	transition: all 0.5s ease;
+	.author__img {
+		margin-left: 84px;
+		margin-bottom: 20px;
+		margin-right: 84px;
+	}
+
+	h3 {
+		text-align: center;
+		font-size: 28px;
+		font-weight: 700;
+		line-height: 40px;
+		letter-spacing: -1px;
+	}
+	p {
+		text-align: center;
+	}
+}
+
+.authors__card:hover {
+	background: #fbf6ea;
+}
